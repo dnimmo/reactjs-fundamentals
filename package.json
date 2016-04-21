@@ -1,0 +1,19 @@
+{
+  "name": "reactjs-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnimmo/reactjs-fundamentals.git"
+  },
+  "author": "David Nimmo <dnimmo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnimmo/reactjs-fundamentals/issues"
+  },
+  "homepage": "https://github.com/dnimmo/reactjs-fundamentals#readme"
+}
