@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dnimmo/reactjs-fundamentals/issues"
   },
-  "homepage": "https://github.com/dnimmo/reactjs-fundamentals#readme"
+  "homepage": "https://github.com/dnimmo/reactjs-fundamentals#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.16.0",
+    "webpack": "^1.13.0"
+  }
 }
